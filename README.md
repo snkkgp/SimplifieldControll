@@ -1,2 +1,2 @@
 # SimplifiedControll
-Programma Gestionale Pagamenti fatto  in Java(Swing)
+Programma Gestionale Pagamenti realizzato in Java(Swing)
