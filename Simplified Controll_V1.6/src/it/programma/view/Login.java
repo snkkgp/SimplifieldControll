@@ -115,17 +115,15 @@ public class Login extends JFrame {
 			public void actionPerformed(ActionEvent arg0) {
 				if((!textUser.getText().equals("")) && (!passwordField.getText().equals(""))) {
 					Operatore operatore = new Operatore();
-					//textUser.setText("admin");     //////////elim
+					
 					operatore.setUserName(textUser.getText());
 					char[] passMom = passwordField.getPassword();
 					String controll = "";
 					for(int i = 0; i < passMom.length; i++) {
 						controll += passMom[i];
 					}
-                   // passwordField.setText("asasasa");//////elim
-					
-					
-						operatore.setPassword(controll/*"Bodybuilding86"*/); //mod
+                 
+						operatore.setPassword(controll); 
 					
 
 					try {
